@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("lo.jpg") no-repeat center center fixed; /* ???? ????? */
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+.container:hover { 
+    transform: scale(1.05);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+	color:#000
+    background-color: #red;
+	
+}
+
+.message {
+    margin-top: 15px;
+}
+
+.message a {
+    color: #28a745;
+}
